@@ -4,16 +4,16 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "ErrorList")
-public class ErrorList {
+public class FundamoErrorList {
 
-	private ErrorMap errorMap;
+	private FundamoErrorMap errorMap;
 
 	@XmlElement(name = "ErrorMap")
-	public ErrorMap getErrorMap() {
+	public FundamoErrorMap getErrorMap() {
 		return errorMap;
 	}
 
-	public void setErrorMap(ErrorMap errorMap) {
+	public void setErrorMap(FundamoErrorMap errorMap) {
 		this.errorMap = errorMap;
 	}
 }

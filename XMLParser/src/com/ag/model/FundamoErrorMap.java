@@ -2,7 +2,7 @@ package com.ag.model;
 
 import javax.xml.bind.annotation.XmlElement;
 
-public class ErrorMap {
+public class FundamoErrorMap {
 
 	private String code;
 	private String eng;
